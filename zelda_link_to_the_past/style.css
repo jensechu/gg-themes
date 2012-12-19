@@ -69,7 +69,7 @@ div.md a {
     color: #594836;
 }
 
-div.md a:hover {
+.titlebox div.md a:hover {
     color: #DE9750;
 }
 
@@ -88,7 +88,7 @@ div.md a:hover {
     border-right: 0px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-}
+ }
 
 .tabmenu li a {
     padding: 2px 6px 0 6px;
@@ -145,58 +145,58 @@ div.md a:hover {
 /* Arrow Hover */
 
 .arrow.down:hover:before {
-    position: absolute;
-    display: block;
-    z-index: 1000;
-    height: 101px;
-    width: 280px;
-    padding: 60px 80px 0px 50px;
-    background: url(%%downvote-hover%%) no-repeat;
-    content: "";
-    text-align: center;
-    font-size: 10px;
-    font-weight: bold;
-    margin-left: 5px;
-    margin-top: 17px
+position: absolute;
+display: block;
+z-index: 1000;
+height: 101px;
+width: 280px;
+padding: 60px 80px 0px 50px;
+background: url(%%downvote-hover%%) no-repeat;
+content: "";
+text-align: center;
+font-size: 10px;
+font-weight: bold;
+margin-left: 5px;
+margin-top: 17px
 }
 
 
 /* Flair */
 .flair-xbox {
-    background-color: #7FFF00;
+background-color: #7FFF00;
 }
 
 .flair-ps3 {
-    background-color: #00FFFF;
+background-color: #00FFFF;
 }
 
 .flair-steam {
-    color:#000000;
-    background-color: #D3D3D3;
+color:#000000;
+background-color: #D3D3D3;
 }
 
 .flair-bnet {
-    color: #FFFFFF;
-    background-color: #E60000;
+color: #FFFFFF;
+background-color: #E60000;
 }
 
 
 .flair-other {
-    color: #FFFFFF;
-    background-color: #000000;
+color: #FFFFFF;
+background-color: #000000;
 }
 
 .flair-all {
-    color: #FFFFFF;
-    background-color: #6600FF;
+color: #FFFFFF;
+background-color: #6600FF;
 }
 
 /*Spoiler tag within comments. Comments should be: "[This is a spoiler sentence.](/spoiler)" */  
 a[href$="/spoiler"] {  
-    background: #000 !important;  
-    color: #000 !important  
+background: #000 !important;  
+color: #000 !important  
 }  
 
 a[href$="/spoiler"]:hover {  
-    color: #FFF !important  
+color: #FFF !important  
 }  
