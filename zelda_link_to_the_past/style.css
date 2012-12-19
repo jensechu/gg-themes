@@ -1,0 +1,202 @@
+/* Side Bar Box */
+.titlebox {
+    background: url(%%titlebox-background%%) no-repeat #429852;
+    padding: 150px 15px 15px 15px;
+    border: 3px solid #635028;
+    -moz-border-radius: 15px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 0 5px #555;
+    box-shadow: 0 0 5px #555;
+}
+
+/* Subscription Buttons */
+.subButtons {
+    padding-left: 10px;
+    width: 300px;
+}
+
+/* Inline Readers/Active Users */
+.subscribers {
+    float: left;
+    padding-right: 46px;
+}
+
+/* Flair & Moderator Box */
+.leavemoderator, .leavecontributor-button, .flairtoggle{
+    background: 0!important;
+}
+
+/* Text Headers */
+.titlebox strong {
+    font-size: 10pt;
+}
+
+/* SIDEBAR ICONS */
+.titlebox div.md p:first-child {
+    background: url(%%gg-zelda-icon%%) no-repeat;
+    padding: 10px 0px;
+}
+
+.titlebox div.md p:nth-child(9) {
+    background: url(%%comm-chicken-icon%%) no-repeat;
+    padding: 10px 0px;
+}
+
+.titlebox div.md p:nth-child(14) {
+    background: url(%%rules-warr-icon%%) no-repeat;
+    padding: 10px 0px;
+}
+
+
+.titlebox div.md li p {
+    background: none!important;
+    padding: 0px!important;
+}
+
+
+/* Main Text */
+.titlebox .md {
+    background-color: #F2DC79!important;
+    background-image: none;
+    border: 2px solid #DE9750;
+    border-radius: 8px;
+    font-size: 8pt;
+    line-height: 11px;
+    padding: 15px;
+}
+
+div.md a {
+    color: #594836;
+}
+
+div.md a:hover {
+    color: #DE9750;
+}
+
+/* Top Bar */
+#header {
+    background: url(%%pixel-background%%) #9FD955;
+    border-bottom: 3px solid #635028;
+    -moz-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
+}
+
+#header-bottom-right {
+    background-color: #F2DC79!important;
+    background-image: none;
+    border: 2px solid #DE9750;
+    border-right: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
+
+.tabmenu li a {
+    padding: 2px 6px 0 6px;
+    background-color: #594836;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 2px solid green;
+    border-bottom: 0px!important;
+    color: #F6E6CE;
+}
+
+.tabmenu li.selected a {
+    padding: 2px 6px 0 6px;
+    background-color: #594836;
+    color: #DE9750;
+    border: 2px solid green;
+}
+
+
+/* Rulers */
+.titlebox hr {
+    margin: 20px 0px
+}
+
+/* Submit Button */
+.morelink {
+    background-color: #F2DC79!important;
+    background-image: none;
+    border: 2px solid #DE9750;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 4%;
+    z-index: 1!important;
+}
+
+.morelink:hover {
+    background-image: none;
+    border: 2px solid #DE9750;
+    box-shadow: 0 0 5px 1px #639423;
+    color: black;
+}
+
+.sidebox.submit {
+    position: absolute;
+    top: 275px; 
+    width: 300px;
+}
+
+.titlebox h1, .sidebox.submit .spacer, .login-form-side, .linkinfo, .bottom, .nub, #userbarToggle {
+    display: none!important;
+}
+
+
+/* Arrow Hover */
+
+.arrow.down:hover:before {
+position: absolute;
+display: block;
+z-index: 1000;
+height: 101px;
+width: 280px;
+padding: 60px 80px 0px 50px;
+background: url(%%downvote-hover%%) no-repeat;
+content: "";
+text-align: center;
+font-size: 10px;
+font-weight: bold;
+margin-left: 5px;
+margin-top: 17px
+}
+
+
+/* Flair */
+.flair-xbox {
+background-color: #7FFF00;
+}
+
+.flair-ps3 {
+background-color: #00FFFF;
+}
+
+.flair-steam {
+color:#000000;
+background-color: #D3D3D3;
+}
+
+.flair-bnet {
+color: #FFFFFF;
+background-color: #E60000;
+}
+
+
+.flair-other {
+color: #FFFFFF;
+background-color: #000000;
+}
+
+.flair-all {
+color: #FFFFFF;
+background-color: #6600FF;
+}
+
+/*Spoiler tag within comments. Comments should be: "[This is a spoiler sentence.](/spoiler)" */  
+a[href$="/spoiler"] {  
+background: #000 !important;  
+color: #000 !important  
+}  
+
+a[href$="/spoiler"]:hover {  
+color: #FFF !important  
+}  
